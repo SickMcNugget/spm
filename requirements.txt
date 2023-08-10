@@ -1,0 +1,8 @@
+SimpleITK==2.0.2
+monai==0.9.0
+h5py>=3.8.0
+medpy>=0.4.0
+ml-collections>=0.1.1
+opencv-python>=4.8.0.74
+tensorboardX>=2.6.2
+tqdm>=4.65.2

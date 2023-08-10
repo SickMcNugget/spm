@@ -15,11 +15,22 @@ We follow the z-score normalization strategy in [nnUNet](https://github.com/MIC-
 
 # Requirements
 * python 3.7  
-* pytorch 1.8.0  
-* torchvision 0.9.0  
+* [pytorch 1.8.0](https://pytorch.org/get-started/previous-versions/#v180)
+* torchvision 0.9.0
 * simpleitk 2.0.2
 * monai 0.9.0
 
+# Install
+Start by creating a new conda environment and installing pytorch:
+```bash
+conda create -n spm python=3.7 -y
+conda activate spm
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch -y
+```
+After that, install the rest of the requirements from PyPI:
+```bash
+pip install -r requirements.txt
+```
 
 # Training
 If you want to train the model from scratch, run the training script as following.  
